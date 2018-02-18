@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f2dfdf"
+    tools:context="rohit.com.serviceringtone.NextActivity">
+
+   <Button
+        android:id="@+id/buttonNext"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="46dp"
+        android:text="Go to Main "/>
+
+    <ImageButton
+        android:id="@+id/imageButtonPlay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:visibility="gone"
+        app:srcCompat="@drawable/ic_volume_up_black_48dp" />
+
+
+
+
+
+    <ImageButton
+        android:id="@+id/imageButtonMute"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        app:srcCompat="@drawable/ic_volume_off_black_48dp" />
+
+
+
+
+</RelativeLayout>
